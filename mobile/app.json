@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "plugins": [
+      "expo-router"
+    ],
+    "name": "poc-teller",
+    "slug": "poc-teller",
+    "ios": {
+      "bundleIdentifier": "com.hoseacodes.poc-teller"
+    }
+  }
+}
