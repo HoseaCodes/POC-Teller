@@ -1,0 +1,10 @@
+nodejs
+.terraform
+.terraform.lock.hcl
+certificate.pem
+example-lambda.js
+lambda-function.zip
+private_key.pem
+teller-mtls-layer.zip
+terraform.tfstate
+terraform.tfvars

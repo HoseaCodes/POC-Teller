@@ -1,0 +1,11 @@
+aws_region = "us-east-1"
+environment = "dev"
+project_name = "teller-app"
+
+# These sensitive values should be provided securely, not in version control
+# Either provide them via environment variables or a secure tfvars file that's not committed
+# teller_certificate_content = "-----BEGIN CERTIFICATE-----\n...\n-----END CERTIFICATE-----"
+# teller_private_key_content = "-----BEGIN PRIVATE KEY-----\n...\n-----END PRIVATE KEY-----"
+
+teller_layer_zip_path = "./teller-mtls-layer.zip"
+teller_layer_version = "1.0.0"
